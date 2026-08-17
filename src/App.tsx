@@ -21,15 +21,7 @@ function App() {
   const [isAppLoading, setIsAppLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate initial authentication check or critical configuration layout fetch
-    const initApp = async () => {
-      try {
-        await new Promise((resolve) => setTimeout(resolve, 1500)); // Fake API delay
-      } finally {
-        setIsAppLoading(false);
-      }
-    };
-    initApp();
+    setIsAppLoading(false);
   }, []);
 
   if (isAppLoading) {
@@ -37,7 +29,7 @@ function App() {
       <Preloader />
     );
   }
-  
+
   return (
     <main>
       <Header />

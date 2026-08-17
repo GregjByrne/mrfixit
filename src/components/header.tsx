@@ -1,4 +1,4 @@
-import mriLogo from '../assets/images/mriLogo-150x70.PNG'; // MrFixIt Logo Image
+import mriLogo from '../assets/images/mriLogo-150x70.webp'; // MrFixIt Logo Image
 import { FaFacebookF, FaTwitter, FaInstagram, FaGoogle } from 'react-icons/fa';
 import { Menu, Send, PhoneCall, MapPinCheck } from 'lucide-react';
 import SideBar from './sideBar';
@@ -79,7 +79,8 @@ export default function Header(){
                                     <img 
                                         src={mriLogo} 
                                         alt="logo" 
-                                        width="200" 
+                                        width={130}
+                                        height={32}
                                     />
                                 </a>
                             </div>

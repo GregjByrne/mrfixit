@@ -1,7 +1,75 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap'); */
+
+
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/open-sans-v44-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/open-sans-v44-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/open-sans-v44-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/* scheherazade-new-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/scheherazade-new-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* scheherazade-new-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/scheherazade-new-v21-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* scheherazade-new-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/scheherazade-new-v21-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* scheherazade-new-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/scheherazade-new-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 :root {
   --thm-font: "Scheherazade New", serif; /* Headings */
@@ -23682,8 +23750,8 @@ background-color: var(--thm-border);
   width: 357px;
 }
 
-.portfolio_card_overlay .overlay_href{
-  color: red;
+.portfolio_card_overlay .overlay_href a{
+  color: #ff6b6b; /* Color Accessibility*/
   font-weight: bold;
 }
 
@@ -23727,6 +23795,9 @@ background-color: var(--thm-border);
 
 /* Shown only at 991px and above */
 @media (max-width: 991px) {
+  .siderbar_div{
+    width: 30px;
+  }
   .siderbar_div .sidebar_bar_control {
     display:contents;
   }
@@ -23783,4 +23854,3 @@ background-color: var(--thm-border);
 .sidebar .navbar-nav li a:hover {
     color: var(--thm-base);
 }
-

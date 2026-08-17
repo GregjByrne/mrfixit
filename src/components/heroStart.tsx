@@ -1,4 +1,4 @@
-import heroStart_img from '../assets/images//project_img/worker_740x685.jpg'; // Hero Section Image
+import heroStart_img from '../assets/images/project_img/worker_740x685.webp'; // Hero Section Image
 import { PhoneCall } from 'lucide-react';
 
 

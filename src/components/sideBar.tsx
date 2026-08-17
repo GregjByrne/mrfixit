@@ -1,4 +1,4 @@
-import sidebar_img from '../assets/images/sidebar_img/mriLogo-150x70.PNG';
+import sidebar_img from '../assets/images/sidebar_img/mriLogo-150x70.webp';
 import type { SidebarProps } from '../types';
 
 export default function SideBar({ isOpen, onClose }: SidebarProps){
@@ -18,8 +18,9 @@ export default function SideBar({ isOpen, onClose }: SidebarProps){
                 {/* <img src="assets/img/mriLogo-150x70.PNG" alt="logo"> */}
                     <img 
                         src={sidebar_img} 
-                        alt="logo" 
-                        width="200" 
+                        alt="Mr Fix It Logo" 
+                        width={200}
+                        height={49}
                     />
                 </a>
             </div>

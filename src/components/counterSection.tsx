@@ -1,4 +1,4 @@
-import Decking_Img from '../assets/images/counter_img/decking_540x308.jpg'; // Counter Sectionn Image
+import Decking_Img from '../assets/images/counter_img/decking_785x448.webp'; // Counter Sectionn Image
 import { counterMetrics }  from '../features/systemData/animatedCounterData.tsx';
 import { CounterItem } from '../utils/counterUtils/animatedCounterUtil.tsx';
 

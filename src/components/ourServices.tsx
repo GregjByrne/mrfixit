@@ -1,6 +1,6 @@
-import services_img1 from '../assets/images/services_img/floorRepair_350_235.jpg'; // Services Sectionn Image
-import services_img2 from '../assets/images/services_img/plumbingRepair_500_333.jpg'; // Services Sectionn Image
-import services_img3 from '../assets/images/services_img/elecRepairs_350_235.jpg'; // Services Sectionn Image
+import services_img1 from '../assets/images/services_img/floorRepair_540_360.webp'; // Services Sectionn Image
+import services_img2 from '../assets/images/services_img/plumbingRepair_541_360.webp'; // Services Sectionn Image
+import services_img3 from '../assets/images/services_img/elecRepairs_536_360.webp'; // Services Sectionn Image
 import { Grid2x2, DoorOpen, Toolbox, ArrowRight } from 'lucide-react';
 
 export default function OurServices(){
@@ -28,7 +28,7 @@ export default function OurServices(){
                                     <a href="#section-services">Floor Installations</a>
                                 </h5>
                                 <p>Wood floors can enhance your home. We assist in selecting, removing old flooring, and installing new wood flooring for you.</p>
-                                <a href="#section-services" className="btn-link primary-color">
+                                <a href="#section-services" className="btn-link primary-color" aria-label="Our Services Floor Installations">
                                     <ArrowRight color="#df1111" strokeWidth={1} />
                                 </a>
                             </div>
@@ -47,7 +47,7 @@ export default function OurServices(){
                                 <a href="#section-services">Plumbing Services</a>
                             </h5>
                             <p>We provide plumbing services to commercial and domestic clients in Dublin, with transparent pricing and no hidden fees. Contact us for details.</p>
-                            <a href="#section-services" className="btn-link primary-color">
+                            <a href="#section-services" className="btn-link primary-color" aria-label="Our Services Plumbing Work">
                                 <ArrowRight color="#df1111" strokeWidth={1} />
                             </a>
                             </div> 
@@ -66,7 +66,7 @@ export default function OurServices(){
                                     <a href="#section-services">Electrical Repairs</a>
                                 </h5>
                                 <p>We offer expert home electrical repairs and appliance servicing in Dublin. Our technicians handle various issues in homes, gardens, and kitchens.</p>
-                                <a href="#section-services" className="btn-link primary-color">
+                                <a href="#section-services" className="btn-link primary-color" aria-label="Our Services Floor Installations Electrical Repairs">
                                     <ArrowRight color="#df1111" strokeWidth={1} />
                                 </a>
                             </div>

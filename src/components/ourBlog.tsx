@@ -1,6 +1,6 @@
-import roofRepairs_img from '../assets/images/blog_img/roof_repairs_357.jpg';
-import livingRoom_img from '../assets/images/blog_img/livingroom_357.jpg';  
-import woodWork_img from '../assets/images/blog_img/wood_work_1_357.jpg';
+import roofRepairs_img from '../assets/images/blog_img/roof_repairs_416.webp';
+import livingRoom_img from '../assets/images/blog_img/livingroom_416.webp';  
+import woodWork_img from '../assets/images/blog_img/wood_work_416.webp';
 import { CalendarDays } from 'lucide-react';
 
 import { useMemo } from 'react';
@@ -29,7 +29,9 @@ export default function BlogSection(){
                                     <img 
                                         src={roofRepairs_img} 
                                         alt="Roofing Repairs" 
-                                        style={{ width: 'auto', height: 'auto' }} 
+                                        width={416}
+                                        height={416}
+                                        loading="lazy"
                                     />
                                 </a>
                             </div>
@@ -57,7 +59,9 @@ export default function BlogSection(){
                                     <img 
                                         src={livingRoom_img} 
                                         alt="Living Room Decor" 
-                                        style={{ width: 'auto', height: 'auto' }} 
+                                        width={416}
+                                        height={416}
+                                        loading="lazy" 
                                     />
                                 </a>
                             </div>
@@ -85,7 +89,9 @@ export default function BlogSection(){
                                     <img 
                                         src={woodWork_img} 
                                         alt="Wood Work Repairs" 
-                                        style={{ width: 'auto', height: 'auto' }} 
+                                        width={416}
+                                        height={416}
+                                        loading="lazy"
                                     />
                                 </a>
                             </div>

@@ -1,8 +1,8 @@
-import Flooring375 from '../../assets/images/portfolio_img/flooring_357.jpg';
-import LivingRoom375 from '../../assets/images/portfolio_img/livingroom_357.jpg';
-import Plumbing375 from '../../assets/images/portfolio_img/plumbing_357.jpg';
-import Tiling375 from '../../assets/images/portfolio_img/tiling_357.jpg';
-import WoodWork375 from '../../assets/images/portfolio_img/wood_work_1_357.jpg';
+import Flooring375 from '../../assets/images/portfolio_img/flooring_357.webp';
+import LivingRoom375 from '../../assets/images/portfolio_img/livingroom_357.webp';
+import Plumbing375 from '../../assets/images/portfolio_img/plumbing_357.webp';
+import Tiling375 from '../../assets/images/portfolio_img/tiling_357.webp';
+import WoodWork375 from '../../assets/images/portfolio_img/wood_work_1_357.webp';
 import type { CarouselType }  from '../../types.ts';
 
 export const CarouselData: CarouselType[] = [

@@ -73,7 +73,13 @@ export default function ContactUs(){
                             </div>
                             <div className="col-lg-6">
                                 <div className="sigma_contact-map">
-                                    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Dublin,%20Ireland+(Mr%20Fix%20It)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" height="600" allowFullScreen={true}>
+                                    <iframe 
+                                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Dublin,%20Ireland+(Mr%20Fix%20It)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
+                                        width={576}
+                                        height={541}
+                                        allowFullScreen={true}
+                                        loading="lazy"
+                                        title="Google Map Location">
                                     </iframe>
                                 </div>
                             </div>

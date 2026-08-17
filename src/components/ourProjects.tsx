@@ -26,7 +26,8 @@ export default function OurProjects(){
                                                         <div className="portfolio_card_image">
                                                                 <img 
                                                                 src={d.carouselImage} 
-                                                                alt={d.alt} 
+                                                                alt={d.alt}
+                                                                loading="lazy"
                                                                 />      
                                                         </div>
                                                         <div className="portfolio_card_overlay">
@@ -38,18 +39,19 @@ export default function OurProjects(){
                                                 </div>           
                                         ))}
                                 </div>
-                                <div aria-hidden className="portfolio_group">
+                                <div aria-hidden="true" className="portfolio_group">
                                        {CarouselData.map((d) => (
                                               <div key={d.service} className="portfolio_card">
                                                         <div className="portfolio_card_image">
                                                                 <img 
                                                                 src={d.carouselImage} 
-                                                                alt={d.alt} 
+                                                                alt=""
+                                                                loading="lazy"
                                                                 />      
                                                         </div>
                                                         <div className="portfolio_card_overlay">
                                                                 <div className="overlay_href">
-                                                                        <a href="#section-portfolio" className="">{d.serviceType}</a>
+                                                                        <a href="#section-portfolio" className="" tabIndex={-1}>{d.serviceType}</a>
                                                                 </div>
                                                                 <span>{d.service}</span>
                                                         </div>

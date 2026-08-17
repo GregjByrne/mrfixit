@@ -1,4 +1,4 @@
- import footer_img from '../assets/images/footer_img/mfi_logo_white_150x70.png';
+ import footer_img from '../assets/images/footer_img/mfi_logo_white_150x70.webp';
  import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
  
  export default function FooterSection(){
@@ -11,6 +11,8 @@
                             <img 
                                 src={footer_img} 
                                 alt="Mr Fix It Logo"
+                                width={150}
+                                height={70}
                             /> 
                         </div>
                             <ul className="sigma_footer-links">
@@ -29,27 +31,24 @@
                             </ul>
                             <ul className="sigma_social-icons">
                                 <li>
-                                    <a href="#">
-                                        {/* <i className="fab fa-facebook-f"></i> */}
+                                    <a href="#section-footer" aria-label="Link Mr Fix It to Facebook">
                                         <FaFacebookF size={25} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        {/* <i className="fab fa-twitter"></i> */}
+                                    <a href="#section-footer" aria-label="Link Mr Fix It to Twitter">
                                         <FaTwitter size={25}  />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className="fab fa-instagram"></i>
+                                    <a href="#section-footer" aria-label="Link Mr Fix It to Instagram">
                                         <FaInstagram size={25}  />
                                     </a>
                                 </li>
                             </ul>
                         <div className="sigma_footer-copyright">
                             <p className="mb-0">&copy; Conuresites -
-                            <a href="#">2025</a>
+                            <a href="#section-footer" aria-label="Link Conuresites to your Socials">2025</a>
                         </p>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
-import { CProgress } from '@coreui/react';
-import about_img from '../assets/images/project_img/builder_570x500.jpg'; // About Sectionn Image
+import { CProgress, CProgressBar } from '@coreui/react';
+import about_img from '../assets/images/project_img/builder_388x500.webp'; // About Sectionn Image
 
 export default function AboutSection(){
  return (
@@ -23,15 +23,36 @@ export default function AboutSection(){
                                 <div className="sigma_about-content">
                                     <div className="sigma_progress">
                                         <h6>Flooring</h6>
-                                        <CProgress value={84} animated variant="striped">84%</CProgress>
+                                        <CProgress animated variant="striped" className="rounded-pill">
+                                            <CProgressBar
+                                                role="progressbar"
+                                                value={84}
+                                                aria-label="Flooring Work"
+                                                className="rounded-pill"
+                                            />
+                                        </CProgress>
                                     </div>
                                     <div className="sigma_progress with-secondary">
                                         <h6>Home Repairs</h6>
-                                        <CProgress value={70} animated variant="striped">70%</CProgress>
+                                        <CProgress animated variant="striped" className="rounded-pill">
+                                            <CProgressBar
+                                                role="progressbar"
+                                                value={70} 
+                                                aria-label="Home Repairs"
+                                                className="rounded-pill"
+                                            />
+                                        </CProgress>
                                     </div>
                                      <div className="sigma_progress">
                                         <h6>Plumbing</h6>
-                                        <CProgress value={84} animated variant="striped">84%</CProgress>
+                                         <CProgress animated variant="striped" className="rounded-pill">
+                                            <CProgressBar
+                                                role="progressbar"
+                                                value={84} 
+                                                aria-label="Plumbing Repairs"
+                                                className="rounded-pill"
+                                            />
+                                        </CProgress>
                                      </div>
                                 </div>
                             </div>
@@ -40,9 +61,13 @@ export default function AboutSection(){
                             <div className="sigma_about style-17">
                                 <div className="sigma_about-image-1">
                                     <img 
-                                    src={about_img} 
-                                    alt="About" 
-                                    style={{ width: 'auto', height: 'auto' }} 
+                                        src={about_img} 
+                                        alt="About"
+                                        // width={638}
+                                        // height={558}
+                                        width={388}
+                                        height={500}                                        
+                                        loading="lazy"
                                     />
                                 </div>
                             </div>
