@@ -1,5 +1,5 @@
 import { CProgress, CProgressBar } from '@coreui/react';
-import about_img from '../assets/images/project_img/builder_388x500.webp'; // About Sectionn Image
+import about_img from '../assets/images/project_img/builder_636x558.webp'; // About Sectionn Image
 
 export default function AboutSection(){
  return (
@@ -63,10 +63,8 @@ export default function AboutSection(){
                                     <img 
                                         src={about_img} 
                                         alt="About"
-                                        // width={638}
-                                        // height={558}
-                                        width={388}
-                                        height={500}                                        
+                                        width="100%"
+                                        height="100%"                                       
                                         loading="lazy"
                                     />
                                 </div>

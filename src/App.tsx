@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/header';
 import HeroStart from './components/heroStart';
-import Preloader from './components/preloader';
+// import Preloader from './components/preloader';
 import AboutSection from './components/about';
 import OurServices from './components/ourServices';
 import OurProjects from './components/ourProjects';
@@ -15,20 +15,20 @@ import ContactUs from './components/contactUs';
 import BackToTop from './components/backToTop';
 import FooterSection from './components/footer';
 
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 function App() {
-  const [isAppLoading, setIsAppLoading] = useState(true);
+  // const [isAppLoading, setIsAppLoading] = useState(true);
 
-  useEffect(() => {
-    setIsAppLoading(false);
-  }, []);
+  // useEffect(() => {
+  //   setIsAppLoading(false);
+  // }, []);
 
-  if (isAppLoading) {
-    return (
-      <Preloader />
-    );
-  }
+  // if (isAppLoading) {
+  //   return (
+  //     <Preloader />
+  //   );
+  // }
 
   return (
     <main>
