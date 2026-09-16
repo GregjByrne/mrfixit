@@ -28,6 +28,9 @@
                                 <li>
                                 <a href="#section-contact-form">Contact</a>
                                 </li>
+                                 <li>
+                                    <a href="/privacy-policy.html">Privacy Policy</a>
+                                </li>
                             </ul>
                             <ul className="sigma_social-icons">
                                 <li>
